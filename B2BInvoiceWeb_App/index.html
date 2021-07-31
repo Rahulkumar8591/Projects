@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highradius</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header id="div-header">
+        <img id="logo" src="images/Group 20399.svg" alt="ABC PRODUCT">
+        <img id="logo1" src="images/logo.svg" alt="Highradius">
+      
+    </header>
+
+    <div class="grid-view">
+        <div class="item1">Invoice List</div><br>
+              
+                   <div id="div-nav">
+                        <nav>
+                        
+                            <button type="button" id="btn1"><img src="images/Path 18189.svg" alt=""> Add</button>
+                            <button type="button" id="btn2"><img src="images/Path 18191.svg" alt=""> Edit</button>
+                            <button type="button" id="btn3"><img id="dpic" src="images/Path 18189-1.svg" alt=""> Delete</button>
+                            <input id="inp1" type="text" placeholder="Search by invoice number" name="search">
+                     <!-- <i class="fa fa-search"></i> -->
+                         
+                        </nav>
+                        <br>
+                    
+<table id="Table" >
+    <tr>
+        <!-- <th ><input type="checkbox"/></th> -->
+        <th><img src="images/check_box_outline_blank-black-18dp.svg" alt=""></th>
+        <th>Customer Name</th>
+        <th >Customer#</th>
+        <th >Invoice#</th>
+         <th >Invoice Amount</th>
+        <th>Due Date</th>
+        <th >Predicted payment date</th>
+         
+    </tr>
+<tbody id="tbdy">
+    <tr>
+        <td><input type="checkbox"/>
+          <span class="checkmark"></span></td>
+        <td>1</td>
+        <td>John Hammond</td>
+        <td>United States</td>
+         <td>500</td>
+        <td>31-08-2002</td>
+        <td>India</td>
+        
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar Khan</td>
+        <td>India</td>
+         <td>600</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+        
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>3</td>
+        <td>Suzanne Mathews</td>
+        <td>France</td>
+         <td>756</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>4</td>
+        <td>Robert Schidner</td>
+        <td>Russia</td>
+         <td>546</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>1</td>
+        <td>John Hammond</td>
+        <td>India</td>
+         <td>8896</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+        
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar Khan</td>
+        <td>India</td>
+         <td>456</td>
+         <td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>3</td>
+        <td>Suzanne Mathews</td>
+        <td>France</td>
+         <td>4569</td>
+         <td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>4</td>
+        <td>Robert Schidner</td>
+        <td>Russia</td>
+         <td>789</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+    </tr>
+     <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar</td>
+        <td>India</td><td>485</td>
+         <td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+     <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar Khan</td>
+        <td>India</td>
+         <td>485</td><td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+     <tr>
+        <td><input type="checkbox"/></td>
+        <td>4</td>
+        <td>Robert Schidner</td>
+        <td>Russia</td>
+         <td>781</td>
+        <td>2021-07-13</td>
+        <td>India</td>
+    </tr>
+     <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar</td>
+        <td>India</td><td>254</td>
+         <td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+     <tr>
+        <td><input type="checkbox"/></td>
+        <td>2</td>
+        <td>Mudassar Khan</td>
+        <td>India</td>
+         <td>8412</td>
+         <td>2021-07-13</td>
+        <td>Mudassar Khan</td>
+        
+    </tr>
+</tbody>
+</table><br><br>
+<!-- <table id="Table" >
+    <thead>
+        <!-- <th ><input type="checkbox"/></th>
+        <th>customer_name</th>
+        <th >customer_number</th>
+        <th >total_open_amount</th>
+         <th >delay</th>
+        <th>due_in_date</th>
+        <th >predicted_payment_date</th>
+        <th >Aging_Bucket</th>
+    </thead>
+    
+</table><br><br>
+
+<button id="prev-button">Prev</button>
+<span id="page-no-current"></span>
+<button id="next-button" onclick="DisplayData()">Next</button> -->
+  </div>
+ 
+    <div class="popup">
+        
+              <dir class="popup-content">
+                <form id="form1">
+                  <div style="color: white; font-size: 20px;">Add Invoice</div>
+                  <img src="images/baseline-close-24px.svg" alt="close" class="close">
+                  <br>
+                  <hr style="border:1px solid #283A46;">
+                  <label style="color: white; font-size: 15px; padding-right: 20px;">Customer Name*</label>
+                  <input id="name" type="text" placeholder="Customer Name" required>
+                
+                  <label style="color: white; font-size: 15px; padding-right: 20px; margin-left: 25px;">Due Date*</label>
+                  <input id="date" style="margin-left: 2px; color: white;" type="date" placeholder="" required>
+                  <br><br>
+                  <label style="color: white; font-size: 15px; padding-right: 20px;">  customer No.*</label>
+                  <input id="customer-no" style="margin-left: 20px;" type="text" placeholder="customer No." required>
+                  
+                 
+                  <br><br>
+                  <label style="color: white; font-size: 15px; padding-right: 20px;">Invoice No.*</label>
+                  <input id="invoice-no" style="margin-left: 29px;" type="text" placeholder="Invoice No." required>
+                  <br><br>
+                  <label style="color: white; font-size: 15px; padding-right: 20px;">Invoice Amount*</label>
+                  <input id="amount" type="text" placeholder="Invoice Amount" required>
+
+                   <label style="color: white; font-size: 15px; margin-left: 25px; margin-top: -30px;">Notes</label>
+                  <textarea id="text-area" style="vertical-align: top; margin-left: 50px; background: #283A46; border: 1px solid #356680; color: white;" name="" cols="15" rows="3"></textarea>
+                 
+                  <br><br>
+                  <hr style="border:1px solid #283A46;">
+                  <button style="color: #14AFF1; text-decoration: none; background: none ; border: none;" href="">Cancel</button>
+                  <button style="
+                  float: right;
+                  margin-right: 10px;
+                  cursor: pointer;
+                  color: white;
+                  width: 50px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 7px;
+                  opacity: 1;
+                  background: #14AFF1;" id="addbtn" onclick="add()">Add</button>
+                 
+                  <button style="
+                  float: right;
+                  margin-right: 15px;
+                  cursor: pointer;
+                  color: white;
+                  width: 50px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 8px;
+                  opacity: 1;
+                  background: #283A46;" >Clear</button>
+                  </form>
+
+              </div>    
+        
+    </div>
+
+</div>
+<div class="popup1">
+    <form id="edit" action="">
+          <dir class="edit-content">
+              <div style="color: white; font-size: 20px;">Edit Invoice</div>
+              <img src="images/baseline-close-24px.svg" alt="close" class="close1">
+              <br>
+              <hr style="border:1px solid #283A46;">
+              <label style="color: white; font-size: 15px; padding-right: 20px;">Invoice Amount</label>
+              <input id="edit-amount" type="text" placeholder="Enter Amount">
+              <br><br>
+               <label style="color: white; font-size: 15px;">Notes</label>
+              <textarea id="edit-text" style="vertical-align: top; margin-left: 80px; background: #283A46; border: 1px solid #356680; color: white;" name="" cols="" rows="5"></textarea>
+             
+              <br><br>
+              <hr style="border:1px solid #283A46;">
+                  <a style="color: #14AFF1; text-decoration: none;" href="">Cancel</a>
+                  <button style="
+                  float: right;
+                  margin-right: 10px;
+                  cursor: pointer;
+                  color: white;
+                  width: 50px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 7px;
+                  opacity: 1;
+                  background: #14AFF1;">Save</button>
+                 
+                  <button style="
+                  float: right;
+                  margin-right: 15px;
+                  cursor: pointer;
+                  color: white;
+                  width: 50px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 8px;
+                  opacity: 1;
+                  background: #283A46;">Reset</button>
+
+          </div>       
+        </form>  
+</div>
+
+<div class="popup2">
+    <form id="delete" action="">
+    <div class="delete-content">
+        <div style="color: white; font-size: 20px;">Edit Invoice</div>
+        <img src="images/baseline-close-24px.svg" alt="close" class="close2">
+        
+        <hr style="border:1px solid #283A46;">
+        <p style="color: white;" >You'll lose your record(s) after this action. We can't recover them once you delete.</p>
+        
+        <p style="color: white;">Are you sure you want to <span style="color: #FF5E5E;">permanently delete</span>  them?</p>
+
+        <br><br>
+        <hr style="border:1px solid #283A46;">
+                  <button style="
+                  float: right;
+                  margin-right: 10px;
+                  cursor: pointer;
+                  color: white;
+                  width: 50px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 7px;
+                  opacity: 1;
+                  background: #14AFF1;">Delete</button>
+                 
+                 <a href=""> <button style="
+                  float: right;
+                  margin-right: 15px;
+                  cursor: pointer;
+                  color: white;
+                  width: 55px;
+                  height: 25px;
+                  border: 1px solid #14AFF1;
+                  border-radius: 8px;
+                  opacity: 1;
+                  background: #283A46;">Cancel</button></a>
+    </div>   
+</form>      
+</div>
+</div>
+
+    <script src="add.js"></script>
+</body>
+</html>

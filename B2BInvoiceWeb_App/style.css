@@ -1,0 +1,207 @@
+::-webkit-scrollbar{
+  background: #273D49;
+}
+
+body{
+  margin: auto;
+  padding: auto;
+    background-color:#39495E ;
+  }
+
+
+#div-header{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+#div-nav{
+margin-left: 30px;
+margin-right:40px;
+width: 95%;
+height: 100%;
+background: #273D49;
+border-radius: 10px;
+opacity: 1;
+padding-right: 20px;
+
+}
+#logo{
+margin-top: 15px;
+margin-left:38px;
+width: 232px;
+height: 51px;
+}
+#logo1{
+
+margin-top: 22px;
+width: 225px;
+height: 45px;
+margin-left:300px;
+}
+
+input[type="checkbox"]{
+    top: 267px;
+    left: 80px;
+    width: 16px;
+    height: 16px;
+    border-radius: 6px;
+    opacity: 1;
+    background-color: #283A46;
+    border: 1px solid #97A1A9;
+    cursor:pointer;
+}
+.item1 {
+  margin-top: 20px;
+  margin-left:35px; 
+height: 15px;
+text-align: left;
+letter-spacing:0;
+font: normal normal normal 28px/32px Ubuntu;
+color: #FFFFFF;
+opacity: 1;
+}
+#dpic{
+  margin-bottom: 7px;
+}
+
+
+#inp1{
+height: 30px;
+text-align: left;
+font: normal normal normal 18px/21px Ubuntu;
+letter-spacing: 0px;
+color: #97A1A9;
+opacity: 1;
+background-image: url('images/search-24px\ \(3\).svg');
+}
+
+nav{
+    float: right;
+    margin-right: 25px;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 25px;
+}
+#btn1, #btn2, #btn3{
+  background-color: #283A46;
+  border: 1px solid #97A1A9;
+  border-radius: 8px;
+  color: #97A1A9;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 8px;
+  cursor: pointer;
+  font-size: 15px;
+  
+}
+
+#Table{
+ margin-left: 30px;
+ border-collapse: collapse;
+width: 96%;
+height: 100%;
+opacity: 1;
+align-items:center;
+top: 100px;
+left: 20px;
+height: 500px;
+display: block;
+overflow-y: scroll;
+ 
+}
+td{
+    padding:10px;
+    align-items:center;
+    color: white;
+    text-align:center;
+    width: 3%;
+}
+th{
+padding:10px;
+    align-items:center;
+    color:#97A1A9;
+    text-align:center;
+}
+
+
+tr:nth-child(even) {
+    background-color:#283A46; 
+    color:white;
+  }
+
+ input, #inp1{
+   padding: 8px 20px;
+   text-align: center;
+   text-decoration: none;
+   margin: 3px 4px;
+   cursor: pointer;
+   font-size: 15px;
+   color: #97A1A9;
+   background: #283A46;
+   border: 1px solid #97A1A7;
+   border-radius: 8px;
+  }
+
+
+.grid-view {
+    display: grid;
+    grid-gap: 15px 20px;
+    grid-template-areas: auto auto auto auto auto auto auto;
+    background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+    padding: 20px;
+  }
+
+  .popup,.popup1, .popup2{
+      background: rgba(0, 0,0, 0.6);
+      width: 100%;
+      height: 100%;
+      position:absolute;
+      top: 0;
+      display: none;
+      justify-content: center;
+      align-items: center;
+  }
+
+.popup-content{
+    height: 315px;
+    width: 500px;
+    background: #2A3E4C;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .edit-content{
+    height: 250px;
+    width: 500px;
+    background: #2A3E4C;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .delete-content{
+    height: 200px;
+    width: 350px;
+    background: #2A3E4C;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .close,.close1, .close2{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+      cursor: pointer;
+  }
+
+  #name, #date, #customer-no, #invoice-no, #amount{
+      width: 70px;
+      height: 8px;
+      
+  }
